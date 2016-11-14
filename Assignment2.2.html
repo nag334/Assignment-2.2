@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Asignment 2.2</title>
+	</head>
+	
+	<body>
+          <!-- Form for taking Details -->
+        <form action="http://www.example.com/review.php" method="get">
+            <fieldset>
+            <legend>Your Details:</legend>
+            <label>Name: <input type="text" name="name" size="30" maxlength="100"></label><br />
+            <label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br />
+            </fieldset><br />
+        </form>
+        <!-- Form for taking feedback -->
+        <form action="http://www.example.com/review.php" method="get">
+            <fieldset>
+                <legend>Your Review:</legend>
+                <label>How did you hear about us?
+                    <select name="abc">
+                        <option value="Google" selected>Google</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Twitter">Twitter</option>
+                        <option value="Friends">Friends</option>
+                        <option value="NewsPaper">NewsPaper</option>
+                    
+                    </select></label><br /><!-- Drop Down List -->
+                <label>Would you visit again?</label><br />
+                <input type="radio" name="Yes">Yes  <input type="radio" name="No"> No  <input type="radio" name="May be"> May be <br /> <!-- Radio Buttons -->
+                <label>Comments:</label><br/>
+                <textarea name="comments" rows="15" columns="45"></textarea><br /> <!-- Multi text area -->
+                <input type="checkbox" checked name""><label>Sign me up for email updates</label><br /> <!-- Check Box -->
+                <input type="submit" value="Submit review"><!-- Button -->
+                
+            
+            </fieldset>
+        
+        
+        
+        </form>
+	</body>
+
+</html>
